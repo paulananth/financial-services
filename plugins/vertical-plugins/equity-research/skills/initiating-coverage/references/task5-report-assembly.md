@@ -1014,7 +1014,7 @@ Use Claude's DOCX skill to:
 - Add page numbers to all pages
 
 **Key formatting requirements:**
-- Professional fonts (Calibri, Arial, or similar)
+- Professional font (Times New Roman per skill default, or user-specified alternative)
 - Proper headers and footers with page numbers
 - Section breaks between major sections
 - Embed all 25-35 charts inline throughout text

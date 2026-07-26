@@ -749,7 +749,7 @@ ProjectFolder/
 ├── Task2_Model/
 │   └── [Company]_Financial_Model.xlsx
 ├── Task3_Valuation/
-│   └── [Company]_Valuation_Analysis.pdf
+│   └── [Company]_Valuation_Analysis.md
 ├── Task4_Charts/
 │   ├── chart_01.png
 │   └── ... (25-35 files)
