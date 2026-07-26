@@ -1,0 +1,573 @@
+[
+  {
+    "slug": "catalyst-calendar",
+    "name": "catalyst-calendar",
+    "description": "Build and maintain a calendar of upcoming catalysts across a coverage universe \u2014 earnings dates, conferences, product launches, regulatory decisions, and macro events. Helps prioritize attention and position ahead of events. Triggers on \"catalyst calendar\", \"upcoming events\", \"what's coming up\", \"ea",
+    "path": "plugins/vertical-plugins/equity-research/skills/catalyst-calendar/SKILL.md",
+    "input_sections": [
+      {
+        "section": "Step 1: Define Coverage Universe",
+        "items": [
+          "List of companies to track (tickers or names)",
+          "Sector / industry focus",
+          "Include macro events? (Fed meetings, economic data, regulatory deadlines)",
+          "Time horizon (next 2 weeks, month, quarter)"
+        ],
+        "tables": [],
+        "excerpt": "- List of companies to track (tickers or names) - Sector / industry focus - Include macro events? (Fed meetings, economic data, regulatory deadlines) - Time horizon (next 2 weeks, month, quarter)"
+      },
+      {
+        "section": "Step 2: Gather Catalysts",
+        "items": [
+          "Quarterly earnings date and time (pre/post market)",
+          "Annual shareholder meeting",
+          "Investor day / analyst day",
+          "Capital markets day",
+          "Debt maturity / refinancing dates",
+          "Product launches or announcements",
+          "FDA approvals / regulatory decisions",
+          "Contract renewals or expirations",
+          "M&A milestones (close dates, regulatory approvals)",
+          "Management transitions",
+          "Insider trading windows (lockup expirations)",
+          "Major conferences (dates, which companies presenting)",
+          "Trade shows and expos",
+          "Regulatory comment periods or rulings",
+          "Industry data releases (monthly sales, traffic, etc.)",
+          "Fed meetings (FOMC dates)",
+          "Jobs report, CPI, GDP releases",
+          "Central bank decisions (ECB, BOJ, etc.)",
+          "Geopolitical events with market impact"
+        ],
+        "tables": [],
+        "excerpt": "For each company, identify upcoming events: **Earnings & Financial Events** - Quarterly earnings date and time (pre/post market) - Annual shareholder meeting - Investor day / analyst day - Capital markets day - Debt maturity / refinancing dates **Corporate Events** - Product launches or announcements - FDA approvals / regulatory decisions - Contract renewals or expirations - M&A milestones (close dates, regulatory approvals) - Management transitions - Insider trading windows (lockup expirations)"
+      }
+    ],
+    "output_sections": [
+      {
+        "section": "Step 5: Output",
+        "items": [
+          "Excel workbook with calendar view and sortable columns",
+          "Weekly preview email/note (markdown)",
+          "Optional: integration with Google Calendar"
+        ],
+        "tables": [],
+        "excerpt": "- Excel workbook with calendar view and sortable columns - Weekly preview email/note (markdown) - Optional: integration with Google Calendar"
+      },
+      {
+        "section": "Important Notes",
+        "items": [
+          "Earnings dates shift \u2014 verify against company IR pages and Bloomberg/FactSet closer to the date",
+          "Pre-announce risk: track companies with a history of pre-announcing (positive or negative)",
+          "Conference attendance lists are valuable \u2014 which companies are presenting and which are conspicuously absent?",
+          "Some catalysts are recurring (monthly industry data) \u2014 build a template and auto-populate",
+          "Color-code by impact level: Red = high impact, Yellow = moderate, Green = routine",
+          "Archive past catalysts with the actual outcome \u2014 builds pattern recognition over time"
+        ],
+        "tables": [],
+        "excerpt": "- Earnings dates shift \u2014 verify against company IR pages and Bloomberg/FactSet closer to the date - Pre-announce risk: track companies with a history of pre-announcing (positive or negative) - Conference attendance lists are valuable \u2014 which companies are presenting and which are conspicuously absent? - Some catalysts are recurring (monthly industry data) \u2014 build a template and auto-populate - Color-code by impact level: Red = high impact, Yellow = moderate, Green = routine - Archive past cataly"
+      }
+    ],
+    "file_patterns": [],
+    "file_types": [],
+    "refs": []
+  },
+  {
+    "slug": "earnings-analysis",
+    "name": "earnings-analysis",
+    "description": "Create professional equity research earnings update reports (8-12 pages, 3,000-5,000 words) analyzing quarterly results for companies already under coverage. Fast-turnaround format focusing on beat/miss analysis, key metrics, updated estimates, and revised thesis. Includes 1-3 summary tables and 8-1",
+    "path": "plugins/vertical-plugins/equity-research/skills/earnings-analysis/SKILL.md",
+    "input_sections": [
+      {
+        "section": "Critical Requirements",
+        "items": [],
+        "tables": [],
+        "excerpt": ""
+      },
+      {
+        "section": "Phase 1: Data Collection (30-60 minutes)",
+        "items": [
+          "\u2705 Search for latest earnings - do NOT rely on training data",
+          "\u2705 Write down today's date and the release date found",
+          "\u2705 Verify release date is within 3 months of today",
+          "\u2705 Verify transcript date matches release date",
+          "\u2705 If dates don't match or are old (>3 months), search again",
+          "**CHECK TODAY'S DATE** - Write down the current date",
+          "**SEARCH FOR LATEST** - Use web search: \"[Company] latest earnings results\"",
+          "**VERIFY THE DATE** - Confirm earnings release is within last 3 months",
+          "**CHECK TRANSCRIPT DATE** - Verify transcript date matches release date"
+        ],
+        "tables": [],
+        "excerpt": "**\ud83d\udea8\ud83d\udea8\ud83d\udea8 CRITICAL: TRAINING DATA IS OUTDATED \ud83d\udea8\ud83d\udea8\ud83d\udea8** **BEFORE STARTING - COMPLETE THESE 4 STEPS IN ORDER:** 1. **CHECK TODAY'S DATE** - Write down the current date 2. **SEARCH FOR LATEST** - Use web search: \"[Company] latest earnings results\" 3. **VERIFY THE DATE** - Confirm earnings release is within last 3 months 4. **CHECK TRANSCRIPT DATE** - Verify transcript date matches release date **COMMON MISTAKE**: Using outdated earnings calls from training data instead of searching for the latest. **REQUI"
+      }
+    ],
+    "output_sections": [
+      {
+        "section": "3. Summary Format",
+        "items": [
+          "Keep tables to 1-3 (summary only, not comprehensive)",
+          "No full P&L/Cash Flow/Balance Sheet (just key metrics)",
+          "Assume reader has seen initiation report"
+        ],
+        "tables": [],
+        "excerpt": "- Keep tables to 1-3 (summary only, not comprehensive) - No full P&L/Cash Flow/Balance Sheet (just key metrics) - Assume reader has seen initiation report"
+      },
+      {
+        "section": "Phase 5: Quality Check & Delivery (30 minutes)",
+        "items": [],
+        "tables": [],
+        "excerpt": "Verify content, formatting, accuracy, and timeliness before delivery. **See [references/best-practices.md](references/best-practices.md)** for quality checklist and common mistakes to avoid."
+      },
+      {
+        "section": "Output Specification",
+        "items": [
+          "Page 1: Summary with rating, price target, key takeaways",
+          "Pages 2-3: Detailed results analysis",
+          "Pages 4-5: Key metrics and guidance",
+          "Pages 6-7: Updated thesis assessment",
+          "Pages 8-10: Valuation and estimates",
+          "Pages 11-12: Appendix (optional)",
+          "8-12 embedded charts",
+          "1-3 summary tables",
+          "Complete sources section with clickable hyperlinks"
+        ],
+        "tables": [],
+        "excerpt": "**Primary Deliverable**: DOCX report (8-12 pages) **File Name**: `[Company]_Q[Quarter]_[Year]_Earnings_Update.docx` **Example**: `Nike_Q2_FY24_Earnings_Update.docx` **Contents:** - Page 1: Summary with rating, price target, key takeaways - Pages 2-3: Detailed results analysis - Pages 4-5: Key metrics and guidance - Pages 6-7: Updated thesis assessment - Pages 8-10: Valuation and estimates - Pages 11-12: Appendix (optional) - 8-12 embedded charts - 1-3 summary tables - Complete sources section wi"
+      }
+    ],
+    "file_patterns": [
+      "Nike_Q2_FY24_Earnings_Update.docx",
+      "[Company]_Q[Quarter]_[Year]_Earnings_Update.docx"
+    ],
+    "file_types": [
+      "//investor.company.com/presentations/q3-2024.pdf",
+      "[references/best-practices.md",
+      "[references/report-structure.md",
+      "[references/workflow.md",
+      "_Earnings_Update.docx",
+      "Nike_Q2_FY24_Earnings_Update.docx",
+      "references/best-practices.md",
+      "references/report-structure.md",
+      "references/workflow.md"
+    ],
+    "refs": [
+      "references/best-practices.md",
+      "references/workflow.md",
+      "references/report-structure.md"
+    ]
+  },
+  {
+    "slug": "earnings-preview",
+    "name": "earnings-preview",
+    "description": "Build pre-earnings analysis with estimate models, scenario frameworks, and key metrics to watch. Use before a company reports quarterly earnings to prepare positioning notes, set up bull/bear scenarios, and identify what will move the stock. Triggers on \"earnings preview\", \"what to watch for [compan",
+    "path": "plugins/vertical-plugins/equity-research/skills/earnings-preview/SKILL.md",
+    "input_sections": [
+      {
+        "section": "Step 1: Gather Context",
+        "items": [
+          "Identify the company and reporting quarter",
+          "Pull consensus estimates via web search (revenue, EPS, key segment metrics)",
+          "Find the earnings date and time (pre-market vs. after-hours)",
+          "Review the company's prior quarter earnings call for any guidance or commentary"
+        ],
+        "tables": [],
+        "excerpt": "- Identify the company and reporting quarter - Pull consensus estimates via web search (revenue, EPS, key segment metrics) - Find the earnings date and time (pre-market vs. after-hours) - Review the company's prior quarter earnings call for any guidance or commentary"
+      }
+    ],
+    "output_sections": [
+      {
+        "section": "Step 5: Output",
+        "items": [
+          "Company, quarter, earnings date",
+          "Consensus estimates table",
+          "Key metrics to watch (ranked by importance)",
+          "Bull/base/bear scenario table",
+          "Catalyst checklist",
+          "Trading setup: recent stock performance, implied move from options"
+        ],
+        "tables": [],
+        "excerpt": "One-page earnings preview with: - Company, quarter, earnings date - Consensus estimates table - Key metrics to watch (ranked by importance) - Bull/base/bear scenario table - Catalyst checklist - Trading setup: recent stock performance, implied move from options"
+      },
+      {
+        "section": "Important Notes",
+        "items": [
+          "Consensus estimates change \u2014 always note the source and date of estimates",
+          "\"Whisper numbers\" from buy-side surveys are often more relevant than published consensus",
+          "Historical earnings reactions help calibrate expectations (search for \"[company] earnings reaction history\")",
+          "Options-implied move tells you what the market expects \u2014 compare to your scenarios"
+        ],
+        "tables": [],
+        "excerpt": "- Consensus estimates change \u2014 always note the source and date of estimates - \"Whisper numbers\" from buy-side surveys are often more relevant than published consensus - Historical earnings reactions help calibrate expectations (search for \"[company] earnings reaction history\") - Options-implied move tells you what the market expects \u2014 compare to your scenarios"
+      }
+    ],
+    "file_patterns": [],
+    "file_types": [],
+    "refs": []
+  },
+  {
+    "slug": "idea-generation",
+    "name": "idea-generation",
+    "description": "Systematic stock screening and investment idea sourcing. Combines quantitative screens, thematic research, and pattern recognition to surface new long and short ideas. Use when looking for new ideas, running screens, or conducting thematic sweeps. Triggers on \"idea generation\", \"stock screen\", \"find",
+    "path": "plugins/vertical-plugins/equity-research/skills/idea-generation/SKILL.md",
+    "input_sections": [
+      {
+        "section": "Step 1: Define Search Criteria",
+        "items": [
+          "**Direction**: Long ideas, short ideas, or both",
+          "**Market cap**: Large, mid, small, micro",
+          "**Sector**: Specific sector or cross-sector",
+          "**Style**: Value, growth, quality, special situation, event-driven",
+          "**Geography**: US, international, global",
+          "**Theme**: Any specific thematic angle (AI, reshoring, aging demographics, etc.)"
+        ],
+        "tables": [],
+        "excerpt": "Ask the user for parameters: - **Direction**: Long ideas, short ideas, or both - **Market cap**: Large, mid, small, micro - **Sector**: Specific sector or cross-sector - **Style**: Value, growth, quality, special situation, event-driven - **Geography**: US, international, global - **Theme**: Any specific thematic angle (AI, reshoring, aging demographics, etc.)"
+      }
+    ],
+    "output_sections": [
+      {
+        "section": "Step 5: Output",
+        "items": [
+          "Shortlist of 5-10 ideas with one-page summaries",
+          "Screening criteria and methodology documented",
+          "Comparison table across all ideas",
+          "Prioritized list: which ideas to research first"
+        ],
+        "tables": [],
+        "excerpt": "- Shortlist of 5-10 ideas with one-page summaries - Screening criteria and methodology documented - Comparison table across all ideas - Prioritized list: which ideas to research first"
+      },
+      {
+        "section": "Important Notes",
+        "items": [
+          "Screens surface candidates, not conclusions \u2014 every screen output needs fundamental work",
+          "The best ideas often come from intersections (e.g., quality company at value price due to temporary headwind)",
+          "Avoid crowded trades \u2014 check ownership data, short interest, and how many analysts cover the name",
+          "Contrarian ideas need a catalyst \u2014 being early without a catalyst is the same as being wrong",
+          "Track idea hit rates over time \u2014 which screens and approaches produce the best ideas?",
+          "Short ideas need higher conviction \u2014 timing is harder and risk is asymmetric"
+        ],
+        "tables": [],
+        "excerpt": "- Screens surface candidates, not conclusions \u2014 every screen output needs fundamental work - The best ideas often come from intersections (e.g., quality company at value price due to temporary headwind) - Avoid crowded trades \u2014 check ownership data, short interest, and how many analysts cover the name - Contrarian ideas need a catalyst \u2014 being early without a catalyst is the same as being wrong - Track idea hit rates over time \u2014 which screens and approaches produce the best ideas? - Short ideas "
+      }
+    ],
+    "file_patterns": [],
+    "file_types": [],
+    "refs": []
+  },
+  {
+    "slug": "initiating-coverage",
+    "name": "initiating-coverage",
+    "description": "Create institutional-quality equity research initiation reports through a 5-task workflow. Tasks must be executed individually with verified prerequisites - (1) company research, (2) financial modeling, (3) valuation analysis, (4) chart generation, (5) final report assembly. Each task produces speci",
+    "path": "plugins/vertical-plugins/equity-research/skills/initiating-coverage/SKILL.md",
+    "input_sections": [
+      {
+        "section": "Input Verification Protocol",
+        "items": [],
+        "tables": [],
+        "excerpt": ""
+      },
+      {
+        "section": "Why Input Verification Matters",
+        "items": [
+          "Waste time with incomplete work",
+          "Produce low-quality outputs",
+          "Require rework"
+        ],
+        "tables": [],
+        "excerpt": "Each task has strict prerequisites. Running a task without required inputs will: - Waste time with incomplete work - Produce low-quality outputs - Require rework **Always verify inputs before starting a task.**"
+      }
+    ],
+    "output_sections": [
+      {
+        "section": "\u26a0\ufe0f Deliverables Policy: NO SHORTCUTS",
+        "items": [
+          "\u274c \"Completion summaries\"",
+          "\u274c \"Executive summaries\"",
+          "\u274c \"Quick reference guides\"",
+          "\u274c \"Next steps documents\"",
+          "\u274c \"Task completion reports\"",
+          "\u274c Any other \"helpful\" documentation not explicitly specified",
+          "\u2705 Task 1: Research document (.md) \u2014 **NOTHING ELSE**",
+          "\u2705 Task 2: Financial model (.xlsx) \u2014 **NOTHING ELSE**",
+          "\u2705 Task 3: Valuation analysis (.md) + Excel tabs added to Task 2 file \u2014 **NOTHING ELSE**",
+          "\u2705 Task 4: Charts zip file (.zip) \u2014 **NOTHING ELSE**",
+          "\u2705 Task 5: Final report (.docx) \u2014 **NOTHING ELSE**"
+        ],
+        "tables": [],
+        "excerpt": "**DELIVER ONLY THE SPECIFIED OUTPUTS. DO NOT CREATE EXTRA DOCUMENTS.** Each task specifies exact deliverables. Do NOT create: - \u274c \"Completion summaries\" - \u274c \"Executive summaries\" - \u274c \"Quick reference guides\" - \u274c \"Next steps documents\" - \u274c \"Task completion reports\" - \u274c Any other \"helpful\" documentation not explicitly specified **Why**: These extras waste context and are not part of the professional workflow. **What TO deliver**: - \u2705 Task 1: Research document (.md) \u2014 **NOTHING ELSE** - \u2705 Task 2: F"
+      },
+      {
+        "section": "Important Notes",
+        "items": [],
+        "tables": [],
+        "excerpt": ""
+      }
+    ],
+    "file_patterns": [
+      "[Company]_Charts_[Date].zip",
+      "[Company]_Financial_Model_[Date].xlsx",
+      "[Company]_Initiation_Report_[Date].docx",
+      "[Company]_Research_Document_[Date].md",
+      "[Company]_Valuation_Analysis_[Date].md"
+    ],
+    "file_types": [
+      ".docx",
+      ".docx",
+      ".md",
+      ".md/.xlsx/.png",
+      ".md",
+      ".png",
+      ".xlsx",
+      ".xlsx",
+      ".zip",
+      ".zip",
+      "_Financial_Model.xlsx",
+      "_Initiation_Report.docx",
+      "_Research_Document.md",
+      "_Valuation_Analysis.pdf",
+      "_description.png",
+      "chart_01_description.png",
+      "chart_02_description.png",
+      "assets/quality-checklist.md",
+      "assets/report-template.md",
+      "chart_01.png"
+    ],
+    "refs": [
+      "references/valuation-methodologies.md",
+      "references/task3-valuation.md",
+      "references/task1-company-research.md",
+      "references/task2-financial-modeling.md",
+      "references/task5-report-assembly.md",
+      "references/task4-chart-generation.md",
+      "assets/quality-checklist.md",
+      "assets/report-template.md"
+    ]
+  },
+  {
+    "slug": "model-update",
+    "name": "model-update",
+    "description": "Update financial models with new data \u2014 quarterly earnings, management guidance, macro changes, or revised assumptions. Adjusts estimates, recalculates valuation, and flags material changes. Use after earnings, guidance updates, or when assumptions need refreshing. Triggers on \"update model\", \"plug ",
+    "path": "plugins/vertical-plugins/equity-research/skills/model-update/SKILL.md",
+    "input_sections": [
+      {
+        "section": "Step 1: Identify What Changed",
+        "items": [
+          "**Earnings release**: New quarterly actuals to plug in",
+          "**Guidance change**: Company updated forward outlook",
+          "**Estimate revision**: Analyst changing assumptions based on new data",
+          "**Macro update**: Interest rates, FX, commodity prices changed",
+          "**Event-driven**: M&A, restructuring, new product, management change"
+        ],
+        "tables": [],
+        "excerpt": "Determine the update trigger: - **Earnings release**: New quarterly actuals to plug in - **Guidance change**: Company updated forward outlook - **Estimate revision**: Analyst changing assumptions based on new data - **Macro update**: Interest rates, FX, commodity prices changed - **Event-driven**: M&A, restructuring, new product, management change"
+      }
+    ],
+    "output_sections": [
+      {
+        "section": "Step 6: Output",
+        "items": [
+          "Updated Excel model (if user provides the existing model)",
+          "Estimate change summary (markdown or Word)",
+          "Updated price target derivation"
+        ],
+        "tables": [],
+        "excerpt": "- Updated Excel model (if user provides the existing model) - Estimate change summary (markdown or Word) - Updated price target derivation"
+      },
+      {
+        "section": "Important Notes",
+        "items": [
+          "Always reconcile your estimates to the company's reported figures before projecting forward",
+          "Note any non-recurring items and whether your estimates are GAAP or adjusted",
+          "Track your estimate revision history \u2014 it shows your analytical progression",
+          "If the quarter was noisy, separate signal from noise in your estimate changes",
+          "Check consensus after updating \u2014 how do your revised estimates compare to the Street?",
+          "Share count matters \u2014 dilution from stock comp, converts, or buybacks can materially affect EPS"
+        ],
+        "tables": [],
+        "excerpt": "- Always reconcile your estimates to the company's reported figures before projecting forward - Note any non-recurring items and whether your estimates are GAAP or adjusted - Track your estimate revision history \u2014 it shows your analytical progression - If the quarter was noisy, separate signal from noise in your estimate changes - Check consensus after updating \u2014 how do your revised estimates compare to the Street? - Share count matters \u2014 dilution from stock comp, converts, or buybacks can mater"
+      }
+    ],
+    "file_patterns": [],
+    "file_types": [],
+    "refs": []
+  },
+  {
+    "slug": "morning-note",
+    "name": "morning-note",
+    "description": "Draft concise morning meeting notes summarizing overnight developments, trade ideas, and key events for coverage stocks. Designed for the 7am morning meeting format \u2014 tight, opinionated, actionable. Triggers on \"morning note\", \"morning meeting\", \"what happened overnight\", \"trade idea\", \"morning call",
+    "path": "plugins/vertical-plugins/equity-research/skills/morning-note/SKILL.md",
+    "input_sections": [
+      {
+        "section": "Step 1: Overnight Developments",
+        "items": [
+          "Any coverage companies reporting overnight or pre-market?",
+          "Earnings surprises (beat/miss on revenue, EPS, key metrics)",
+          "Guidance changes (raised, lowered, maintained)",
+          "M&A announcements or rumors",
+          "Management changes",
+          "Product launches or regulatory decisions",
+          "Analyst upgrades/downgrades from competitors",
+          "Macro data or policy changes affecting the sector",
+          "Overnight futures / pre-market moves",
+          "Sector ETF performance",
+          "Relevant commodity or currency moves",
+          "Key economic data releases today"
+        ],
+        "tables": [],
+        "excerpt": "Scan for relevant events across coverage universe: **Earnings & Guidance** - Any coverage companies reporting overnight or pre-market? - Earnings surprises (beat/miss on revenue, EPS, key metrics) - Guidance changes (raised, lowered, maintained) **News & Events** - M&A announcements or rumors - Management changes - Product launches or regulatory decisions - Analyst upgrades/downgrades from competitors - Macro data or policy changes affecting the sector **Market Context** - Overnight futures / pr"
+      }
+    ],
+    "output_sections": [
+      {
+        "section": "Step 2: Morning Note Format",
+        "items": [
+          "2-3 sentences on the key development and why it matters",
+          "Stock impact: price target, rating reiteration/change",
+          "[Company A]: One-line summary of earnings/news + our take",
+          "[Company B]: One-line summary + our take",
+          "[Sector/Macro]: Relevant sector-wide development",
+          "[Time]: [Company] earnings call",
+          "[Time]: Economic data release (expectations vs. our view)",
+          "[Time]: Conference or investor day",
+          "[Long/Short] [Company]: 1-2 sentence thesis + catalyst",
+          "Risk: What would make this wrong"
+        ],
+        "tables": [],
+        "excerpt": "Keep it tight \u2014 a morning note should be readable in 2 minutes: --- **[Date] Morning Note \u2014 [Analyst Name]** **[Sector Coverage]** **Top Call: [Headline \u2014 the one thing PMs need to hear]** - 2-3 sentences on the key development and why it matters - Stock impact: price target, rating reiteration/change **Overnight/Pre-Market Developments** - [Company A]: One-line summary of earnings/news + our take - [Company B]: One-line summary + our take - [Sector/Macro]: Relevant sector-wide development **Key"
+      },
+      {
+        "section": "Step 4: Output",
+        "items": [
+          "Markdown text for email/Slack distribution",
+          "Word document if formal distribution is needed",
+          "Keep to 1 page max \u2014 PMs and traders won't read more"
+        ],
+        "tables": [],
+        "excerpt": "- Markdown text for email/Slack distribution - Word document if formal distribution is needed - Keep to 1 page max \u2014 PMs and traders won't read more"
+      },
+      {
+        "section": "Important Notes",
+        "items": [
+          "Be opinionated \u2014 morning notes that just summarize news without a view are useless",
+          "Lead with the most important thing \u2014 don't bury the headline",
+          "\"No news\" is a valid morning note \u2014 say \"nothing material overnight, maintaining positioning\"",
+          "Distinguish between actionable events (earnings, M&A) and noise (minor analyst notes, non-events)",
+          "Time-stamp your takes \u2014 if you're writing at 6am, note that pre-market may change by open",
+          "If you're wrong, own it in the next morning note \u2014 credibility matters more than being right every time"
+        ],
+        "tables": [],
+        "excerpt": "- Be opinionated \u2014 morning notes that just summarize news without a view are useless - Lead with the most important thing \u2014 don't bury the headline - \"No news\" is a valid morning note \u2014 say \"nothing material overnight, maintaining positioning\" - Distinguish between actionable events (earnings, M&A) and noise (minor analyst notes, non-events) - Time-stamp your takes \u2014 if you're writing at 6am, note that pre-market may change by open - If you're wrong, own it in the next morning note \u2014 credibility"
+      }
+    ],
+    "file_patterns": [],
+    "file_types": [],
+    "refs": []
+  },
+  {
+    "slug": "sector-overview",
+    "name": "sector-overview",
+    "description": "Create comprehensive industry and sector landscape reports covering market dynamics, competitive positioning, key players, and thematic trends. Use for client requests, sector initiations, thematic research pieces, or internal knowledge building. Triggers on \"sector overview\", \"industry report\", \"ma",
+    "path": "plugins/vertical-plugins/equity-research/skills/sector-overview/SKILL.md",
+    "input_sections": [
+      {
+        "section": "Step 1: Define Scope",
+        "items": [
+          "**Sector / subsector**: What industry and how narrowly defined?",
+          "**Purpose**: Client report, internal research, pitch material, idea generation",
+          "**Depth**: High-level overview (5-10 pages) or deep dive (20-30 pages)",
+          "**Angle**: Neutral landscape vs. thematic thesis (e.g., \"AI infrastructure buildout\")",
+          "**Universe**: Public companies only, or include private?"
+        ],
+        "tables": [],
+        "excerpt": "- **Sector / subsector**: What industry and how narrowly defined? - **Purpose**: Client report, internal research, pitch material, idea generation - **Depth**: High-level overview (5-10 pages) or deep dive (20-30 pages) - **Angle**: Neutral landscape vs. thematic thesis (e.g., \"AI infrastructure buildout\") - **Universe**: Public companies only, or include private?"
+      },
+      {
+        "section": "Step 4: Valuation Context",
+        "items": [
+          "Sector trading multiples (current and historical range)",
+          "Premium/discount drivers (growth, margins, market position)",
+          "Recent M&A transaction multiples",
+          "How does the sector compare to the broader market?"
+        ],
+        "tables": [],
+        "excerpt": "- Sector trading multiples (current and historical range) - Premium/discount drivers (growth, margins, market position) - Recent M&A transaction multiples - How does the sector compare to the broader market?"
+      }
+    ],
+    "output_sections": [
+      {
+        "section": "Step 6: Output",
+        "items": [
+          "Word document or PowerPoint with:",
+          "Excel appendix with detailed company data"
+        ],
+        "tables": [],
+        "excerpt": "- Word document or PowerPoint with: - Market overview and sizing - Competitive landscape map - Company comparison table - Valuation summary - Key charts: market growth, share trends, valuation history - Excel appendix with detailed company data"
+      },
+      {
+        "section": "Important Notes",
+        "items": [
+          "Source all market size data \u2014 cite the research firm or methodology",
+          "Distinguish between TAM hype and realistic addressable market",
+          "Sector overviews age fast \u2014 note the date and flag data that may be stale",
+          "Charts are essential \u2014 market size waterfall, competitive positioning matrix, valuation scatter plot",
+          "If for a client, tailor the \"so what\" to their specific situation (M&A target identification, competitive positioning, market entry)"
+        ],
+        "tables": [],
+        "excerpt": "- Source all market size data \u2014 cite the research firm or methodology - Distinguish between TAM hype and realistic addressable market - Sector overviews age fast \u2014 note the date and flag data that may be stale - Charts are essential \u2014 market size waterfall, competitive positioning matrix, valuation scatter plot - If for a client, tailor the \"so what\" to their specific situation (M&A target identification, competitive positioning, market entry)"
+      }
+    ],
+    "file_patterns": [],
+    "file_types": [],
+    "refs": []
+  },
+  {
+    "slug": "thesis-tracker",
+    "name": "thesis-tracker",
+    "description": "Maintain and update investment theses for portfolio positions and watchlist names. Track key data points, catalysts, and thesis milestones over time. Use when updating a thesis with new information, reviewing position rationale, or checking if a thesis is still intact. Triggers on \"update thesis for",
+    "path": "plugins/vertical-plugins/equity-research/skills/thesis-tracker/SKILL.md",
+    "input_sections": [
+      {
+        "section": "Step 1: Define or Load Thesis",
+        "items": [
+          "**Company**: Name and ticker",
+          "**Position**: Long or Short",
+          "**Thesis statement**: 1-2 sentence core thesis (e.g., \"Long ACME \u2014 margin expansion from pricing power + operating leverage as mix shifts to software\")",
+          "**Key pillars**: 3-5 supporting arguments",
+          "**Key risks**: 3-5 risks that would invalidate the thesis",
+          "**Catalysts**: Upcoming events that could prove/disprove the thesis (earnings, product launches, regulatory decisions)",
+          "**Target price / valuation**: What's it worth if the thesis plays out",
+          "**Stop-loss trigger**: What would make you exit"
+        ],
+        "tables": [],
+        "excerpt": "If creating a new thesis: - **Company**: Name and ticker - **Position**: Long or Short - **Thesis statement**: 1-2 sentence core thesis (e.g., \"Long ACME \u2014 margin expansion from pricing power + operating leverage as mix shifts to software\") - **Key pillars**: 3-5 supporting arguments - **Key risks**: 3-5 risks that would invalidate the thesis - **Catalysts**: Upcoming events that could prove/disprove the thesis (earnings, product launches, regulatory decisions) - **Target price / valuation**: Wh"
+      }
+    ],
+    "output_sections": [
+      {
+        "section": "Step 5: Output",
+        "items": [
+          "Morning meeting discussion",
+          "Portfolio review",
+          "Risk committee presentation"
+        ],
+        "tables": [],
+        "excerpt": "Thesis summary suitable for: - Morning meeting discussion - Portfolio review - Risk committee presentation Format: Concise markdown or Word doc with the scorecard, recent updates, and current conviction level."
+      },
+      {
+        "section": "Important Notes",
+        "items": [
+          "A thesis should be falsifiable \u2014 if nothing could disprove it, it's not a thesis",
+          "Track disconfirming evidence as rigorously as confirming evidence",
+          "Review theses at least quarterly, even when nothing dramatic has happened",
+          "If the user manages multiple positions, offer to do a full portfolio thesis review",
+          "Store thesis data in a structured format so it can be referenced across sessions"
+        ],
+        "tables": [],
+        "excerpt": "- A thesis should be falsifiable \u2014 if nothing could disprove it, it's not a thesis - Track disconfirming evidence as rigorously as confirming evidence - Review theses at least quarterly, even when nothing dramatic has happened - If the user manages multiple positions, offer to do a full portfolio thesis review - Store thesis data in a structured format so it can be referenced across sessions"
+      }
+    ],
+    "file_patterns": [],
+    "file_types": [],
+    "refs": []
+  }
+]
