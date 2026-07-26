@@ -88,7 +88,7 @@ Before delivering an initiation report, verify all items below are complete.
 - [ ] All years use "A" for actual, "E" for estimate notation
 
 **Professional Formatting:**
-- [ ] Consistent fonts throughout (Calibri, Arial, or similar)
+- [ ] Consistent font throughout (Times New Roman per skill default, or user-specified alternative)
 - [ ] Headers and footers with page numbers
 - [ ] Dense layout: 60-80% page coverage, minimal white space
 - [ ] Every page has both text AND visuals (charts or tables)
@@ -123,8 +123,9 @@ Before delivering an initiation report, verify all items below are complete.
 ## XLS Financial Model - Structure
 
 **File Structure:**
-- [ ] 15+ tabs in Excel workbook
-- [ ] Tabs include: Executive Summary, Assumptions, Historical Financials, Revenue Model, Operating Expenses, Income Statement, Balance Sheet, Cash Flow, Supporting Schedules, DCF Valuation, Comps Analysis, Precedent Transactions, Scenarios, Sensitivity Analysis, Charts
+- [ ] 6 essential tabs in Excel workbook (per Task 2)
+- [ ] Tabs include: Revenue Model, Income Statement, Cash Flow Statement, Balance Sheet, Scenarios, DCF Inputs
+- [ ] Assumptions documented as blue-text inputs directly in each tab, not a separate Assumptions tab
 
 **Formatting:**
 - [ ] Blue text for hardcoded inputs
@@ -245,7 +246,7 @@ DOCX Report:
 - Word count: _____ words (MUST BE 10,000-15,000)
 
 XLS Model:
-- Tab count: _____ tabs (SHOULD BE 15+)
+- Tab count: _____ tabs (SHOULD BE 6 essential tabs per Task 2)
 - Model years: _____ historical + _____ projected
 
 If any count is below minimum, STOP and add content before delivery.
