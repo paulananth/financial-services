@@ -94,7 +94,7 @@ Legend for sources: **User** · **Files** · **MCP/API** · **Web** · **Session
 
 | Skill | Data required | Sources | Outputs |
 |-------|---------------|---------|---------|
-| **ai-readiness** | Portfolio materials (quarterlies, board decks, financials) for one or many portcos | MCP/files/uploads | **1-page OP memo**: top 5 AI opportunities, replays, go/wait, explicitly not doing |
+| **ai-readiness** | Portfolio materials (quarterlies, board decks, financials) for one or many portcos | MCP/files/uploads | **1-page OP memo**: top 5 AI opportunities, replays, go-or-wait call, explicitly not doing |
 | **dd-checklist** | Target; deal type; size/complexity; key concerns; timeline | User | **DD checklist Excel** (workstream tabs) + % complete dashboard + weekly status format |
 | **dd-meeting-prep** | Meeting type; attendees; topic focus; known materials; concerns | User; CIM/data room | **1-page prep**: objectives, prioritized questions, benchmarks, red flags, follow-ups |
 | **deal-screening** | CIM / teaser / broker materials; **fund investment criteria** | **Files**; User criteria | **1-page screen memo** (metrics, fit, red flags, pass/advance) |
